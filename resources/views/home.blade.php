@@ -10,7 +10,7 @@
 
 <body>
 
-    <h1>Hello World!</h1>
+    <h1>{{ $first_word }} {{ $second_word }}!</h1>
 
 </body>
 

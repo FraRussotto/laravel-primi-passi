@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $first_word = 'Hello';
+    $second_word = 'World';
+    return view('home', compact('first_word', 'second_word'));
 });
